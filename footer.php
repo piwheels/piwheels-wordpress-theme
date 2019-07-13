@@ -6,7 +6,7 @@
           <p>piwheels is a community project by <a href="https://twitter.com/ben_nuttall">Ben Nuttall</a>
             and <a href="https://twitter.com/waveform80">Dave Jones</a>.
             Hosting is kindly donated by <a href="https://www.mythic-beasts.com/">Mythic Beasts</a>.
-            Project <a href="https://github.com/bennuttall/piwheels">source code</a> is available from GitHub.</p>
+            Project <a href="https://github.com/piwheels/piwheels">source code</a> is available from GitHub.</p>
         </div>
         <div class="small-12 medium-4 columns">
           <a href="https://www.mythic-beasts.com/"><img src="https://www.piwheels.org/mythic_beasts_logo.png" /></a>
@@ -21,4 +21,3 @@
 	<?php wp_footer(); ?>
   </body>
 </html>
-

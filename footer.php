@@ -15,8 +15,8 @@
     </footer>
 
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/what-input/4.2.0/what-input.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    <script src="https://www.piwheels.org/what-input.min.js"></script>
+    <script src="https://www.piwheels.org/foundation.min.js"></script>
     <script>$(document).foundation();</script>
 	<?php wp_footer(); ?>
   </body>

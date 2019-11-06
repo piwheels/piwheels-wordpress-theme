@@ -2,6 +2,21 @@
 
 // Custom functions
 
+function pw_title() {
+    bloginfo('title');
+    echo " - ";
+    if (is_home()) {
+        bloginfo('description');
+    }
+    elseif (is_single()) {
+        the_title();
+    }
+    elseif (is_tag()) {
+        single_tag_title();
+        echo " posts";
+    }
+}
+
 function timestamped_stylesheet($stylesheet='style.css') {
     $stylesheet_url = get_bloginfo('template_url') . '/' . $stylesheet;
     $stylesheet_path = get_stylesheet_directory() . '/' . $stylesheet;

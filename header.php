@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php bloginfo('title'); ?></title>
+    <title><?php pw_title(); ?></title>
     <link rel="stylesheet" href="https://www.piwheels.org/foundation-float.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">

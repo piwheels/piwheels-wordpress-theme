@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <div class="row">
-<?php if (have_posts()): ?>
     <h1>piwheels blog</h1>
+<?php if (have_posts()): ?>
     <?php while (have_posts()): the_post(); ?>
     <div class="small-12 medium-8 columns">
         <date><?php echo get_the_date(); ?></date>
@@ -13,10 +13,12 @@
         </div>
     </div>
     <?php endwhile; ?>
-    <div></div>
 <?php else: ?>
-    <h1>404 - page not found</h1>
+    <div class="small-12 medium-8 columns">
+        <h2>No posts</h2>
+    </div>
 <?php endif; ?>
+<div></div>
 
 </div>
 

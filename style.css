@@ -29,3 +29,7 @@ date {
 .next {
     text-align: right;
 }
+
+.twitter-tweet {
+    margin: 20px auto;
+}

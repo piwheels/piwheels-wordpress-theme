@@ -7,4 +7,5 @@
             <?php show_tag_list(get_the_ID(), ', ', 'Tags: '); ?>
         </div>
     </div>
+    <?php get_template_part('sidebar'); ?>
 </div>

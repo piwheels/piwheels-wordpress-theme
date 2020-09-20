@@ -18,6 +18,7 @@
     <script src="https://www.piwheels.org/what-input.min.js"></script>
     <script src="https://www.piwheels.org/foundation.min.js"></script>
     <script>$(document).foundation();</script>
+    <script src="https://www.piwheels.org/blogposts.js"></script>
 	<?php wp_footer(); ?>
   </body>
 </html>

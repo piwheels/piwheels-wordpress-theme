@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<div class="row">
-  <div class="small-12 medium-8 columns">
-    <h1>piwheels blog</h1>
-  </div>
-<?php if (have_posts()): ?>
+<article>
+  <section>
+    <div class="content">
+      <h2>piwheels blog</h2>
+  <?php if (have_posts()): ?>
   <?php while (have_posts()): the_post(); ?>
   <div class="small-12 medium-8 columns">
     <date><?php echo get_the_date(); ?></date>
@@ -20,8 +20,9 @@
     <h2>No posts</h2>
   </div>
 <?php endif; ?>
-<div></div>
+    </div>
+  </section>
+</article>
 
-</div>
 
 <?php get_footer();
